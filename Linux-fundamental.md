@@ -54,6 +54,18 @@
 - `chmod 755 script.sh` - Owner: rwx, Group: r-x, Others: r-x
 - `chmod 644 file.txt` - Owner: rw-, Group: r--, Others: r--
 
+**VI/VIM EDITOR**
+
+- `vi` - Screen-oriented text editor for Unix and Linux systems
+
+### Common VI Commands
+
+- `vi myfile` - Open or create `myfile` in the vi editor
+- `:w` - Save (write) the current file
+- `:x` - Save changes and exit vi
+- `:wq` - Save changes and exit vi
+- `:q` - Quit vi
+- `:q!` - Quit vi without saving changes
 
 
 
