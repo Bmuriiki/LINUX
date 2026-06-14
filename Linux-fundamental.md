@@ -35,6 +35,24 @@
 
 
 
+## File Permission 
+
+## Permission Classes
+
+- `u` (user) - The file owner
+- `g` (group) - Members of the file's group
+- `o` (others) - Users who are neither the file owner nor members of the file's group
+
+- `chmod` - Change the access permissions of files and directories
+
+
+# Common Examples
+
+- `chmod u+x script.sh` - Give the owner execute permission
+- `chmod g+w file.txt` - Give the group write permission
+- `chmod o-r file.txt` - Remove read permission from others
+- `chmod 755 script.sh` - Owner: rwx, Group: r-x, Others: r-x
+- `chmod 644 file.txt` - Owner: rw-, Group: r--, Others: r--
 
 
 
