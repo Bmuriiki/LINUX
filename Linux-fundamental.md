@@ -69,6 +69,40 @@
 
 
 
+# Bash Shell Scripting
+
+## Create a Bash Script
+
+```bash
+nano examplescript.sh
+```
+
+Add the following content to the file:
+
+```bash
+#!/bin/bash
+
+echo "BIGDATA"
+echo "ENGINEER"
+```
+
+## Run the Script
+
+Option 1:
+
+```bash
+./examplescript.sh
+```
+
+### Output
+
+```text
+BIGDATA
+ENGINEER
+```
+
+
+
 
 
 
