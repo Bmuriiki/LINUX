@@ -27,6 +27,30 @@
 - `du` - Display disk usage of files and directories
 - `top` - Monitor running processes, CPU usage, and memory usage in real time
 
+**System Log File**
+- `/var/log/auth.log` - Contains system authorization information, including user logins and authentication activity
+- `/var/log/lastlog` - Stores recent login information for all users; view using the `lastlog` command
+- `/var/log/faillog` - Records failed login attempts; view using the `faillog` command
+- `/var/log/dpkg.log` - Logs package installation and removal activity performed by the `dpkg` package manager
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
